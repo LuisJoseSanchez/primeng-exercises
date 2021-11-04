@@ -1,1 +1,20 @@
-<p>exercise02g works!</p>
+
+<br><br>
+
+<div class="grid">
+
+    <div class="col-6">
+        <p-chart height="210px" type="bar" [data]="datosCarga" [options]="opcionesCarga">
+        </p-chart>
+    </div>
+
+    <div class="col">
+        <p-chart height="300px" type="doughnut" [data]="data"></p-chart>
+
+    </div>
+
+    <div class="col">
+        <p-chart height="400px" type="radar" [data]="data2"></p-chart>
+    </div>
+
+</div>

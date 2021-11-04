@@ -11,14 +11,14 @@ export class Exercise02Component implements OnInit {
   datosCarga: any;
   opcionesCarga: any;
   basicOptions: any;
-  
+
   data: any;
   data2: any;
 
   constructor() { }
 
   ngOnInit(): void {
-    
+
 
 
     this.datosCarga = {
@@ -97,50 +97,50 @@ export class Exercise02Component implements OnInit {
     };
 
     this.data = {
-      labels: ['Multiplataforma','Desarrollo web','Ciberseguridad'],
+      labels: ['Multiplataforma', 'Desarrollo web', 'Ciberseguridad'],
       datasets: [
-          {
-              data: [300, 50, 100],
-              backgroundColor: [
-                  "#42A5F5",
-                  "#66BB6A",
-                  "#FFA726"
-              ],
-              hoverBackgroundColor: [
-                  "#64B5F6",
-                  "#81C784",
-                  "#FFB74D"
-              ]
-          }
-      ]
-  };
-
-
-  this.data2 = {
-    labels: ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'],
-    datasets: [
         {
-            label: 'My First dataset',
-            backgroundColor: 'rgba(179,181,198,0.2)',
-            borderColor: 'rgba(179,181,198,1)',
-            pointBackgroundColor: 'rgba(179,181,198,1)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgba(179,181,198,1)',
-            data: [65, 59, 90, 81, 56, 55, 40]
+          data: [300, 50, 100],
+          backgroundColor: [
+            "#42A5F5",
+            "#66BB6A",
+            "#FFA726"
+          ],
+          hoverBackgroundColor: [
+            "#64B5F6",
+            "#81C784",
+            "#FFB74D"
+          ]
+        }
+      ]
+    };
+
+
+    this.data2 = {
+      labels: ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'],
+      datasets: [
+        {
+          label: 'My First dataset',
+          backgroundColor: 'rgba(179,181,198,0.2)',
+          borderColor: 'rgba(179,181,198,1)',
+          pointBackgroundColor: 'rgba(179,181,198,1)',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: 'rgba(179,181,198,1)',
+          data: [65, 59, 90, 81, 56, 55, 40]
         },
         {
-            label: 'My Second dataset',
-            backgroundColor: 'rgba(255,99,132,0.2)',
-            borderColor: 'rgba(255,99,132,1)',
-            pointBackgroundColor: 'rgba(255,99,132,1)',
-            pointBorderColor: '#fff',
-            pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgba(255,99,132,1)',
-            data: [28, 48, 40, 19, 96, 27, 100]
+          label: 'My Second dataset',
+          backgroundColor: 'rgba(255,99,132,0.2)',
+          borderColor: 'rgba(255,99,132,1)',
+          pointBackgroundColor: 'rgba(255,99,132,1)',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: 'rgba(255,99,132,1)',
+          data: [28, 48, 40, 19, 96, 27, 100]
         }
-    ]
-};
+      ]
+    };
   }
 
 }
