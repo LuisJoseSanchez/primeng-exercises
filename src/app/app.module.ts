@@ -11,6 +11,7 @@ import {AvatarModule} from 'primeng/avatar';
 import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
 import {ChartModule} from 'primeng/chart';
+import {DataViewModule} from 'primeng/dataview';
 import {FileUploadModule} from 'primeng/fileupload';
 import {HttpClientModule} from '@angular/common/http';
 import {MenuModule} from 'primeng/menu';
@@ -23,6 +24,7 @@ import { Exercise03Component } from './exercise03/exercise03.component';
 import { Exercise01gComponent } from './exercise01g/exercise01g.component';
 import { Exercise02gComponent } from './exercise02g/exercise02g.component';
 import { Exercise03gComponent } from './exercise03g/exercise03g.component';
+import { Exercise04Component } from './exercise04/exercise04.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { Exercise03gComponent } from './exercise03g/exercise03g.component';
     Exercise03Component,
     Exercise01gComponent,
     Exercise02gComponent,
-    Exercise03gComponent
+    Exercise03gComponent,
+    Exercise04Component
   ],
   imports: [
     BrowserModule,
@@ -43,6 +46,7 @@ import { Exercise03gComponent } from './exercise03g/exercise03g.component';
     ButtonModule,
     CardModule,
     ChartModule,
+    DataViewModule,
     FileUploadModule,
     HttpClientModule,
     MenuModule,
