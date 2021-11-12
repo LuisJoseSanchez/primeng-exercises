@@ -16,6 +16,7 @@ import {FileUploadModule} from 'primeng/fileupload';
 import {HttpClientModule} from '@angular/common/http';
 import {MenuModule} from 'primeng/menu';
 import {PanelModule} from 'primeng/panel';
+import {TableModule} from 'primeng/table';
 import {TabMenuModule} from 'primeng/tabmenu';
 
 import { Exercise01Component } from './exercise01/exercise01.component';
@@ -51,6 +52,7 @@ import { Exercise04Component } from './exercise04/exercise04.component';
     HttpClientModule,
     MenuModule,
     PanelModule,
+    TableModule,
     TabMenuModule
   ],
   providers: [],
